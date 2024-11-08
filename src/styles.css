@@ -1,1 +1,51 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #242833 !important;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+}
+
+.logoFounders {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+}
+
+.colorFont{
+    color: white !important;
+}
+
+.fondoOmega{
+    background-color: #1f281d !important;
+    color: white !important;
+    align-items: center !important;
+}
+
+.fondoBeta{
+    background-color: #261d28 !important;
+    color: white !important;
+    align-items: center !important;
+}
+
+.fondoDelta{
+    background-color: #2B303D !important;
+    color: white !important;
+    align-items: center !important;
+}
+
+.fondoAlfa{
+    background-color: #281d1d !important;
+    color: white !important;
+    align-items: center !important;
+}
+
+/* .custom-card-size { 
+    max-height: 500px;
+    overflow-y: auto;
+}*/
+
