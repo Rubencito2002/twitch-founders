@@ -9,13 +9,34 @@ body {
     display: block;
 }
 
+.logo:hover {
+    transform: scale(1.5);
+}
+
 .logoFounders {
     width: 100px;
     height: 100px;
     margin: 0 auto;
     display: block;
-    animation: zoomIn 0.8s ease forwards;
+    /* animation: zoomIn 0.8s ease forwards; */
+    transition: transform 0.3s ease-in-out;
 }
+
+.logoFounders:hover {
+    transform: scale(1.5);
+}
+
+/* img {
+    height: 5rem;
+    width: auto;
+    border-radius: 34% 66% 64% 36% / 37% 39% 61% 63%;
+    border: 5px solid var(--accent-color);
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1);
+} */
 
 .colorFont{
     color: white !important;
@@ -56,3 +77,4 @@ body {
     margin-right: 5px;
     vertical-align: middle;
 }
+
