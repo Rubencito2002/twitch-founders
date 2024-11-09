@@ -12,10 +12,15 @@ h3, h5, a{
     height: 50px;
     margin: 0 auto;
     display: block;
+    filter: drop-shadow(0 4px 8px rgba(255, 223, 51, 0.6))   /* Sombra amarilla */
+            drop-shadow(0 4px 8px rgba(70, 130, 180, 0.6)); /* Sombra azul tenue */
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
 }
 
 .logo:hover {
     transform: scale(1.5);
+    filter: drop-shadow(0 4px 8px rgba(255, 223, 51, 0.6))   /* Sombra amarilla */
+            drop-shadow(0 4px 8px rgba(70, 130, 180, 0.6)); /* Sombra azul tenue */
 }
 
 .logoFounders {
@@ -24,34 +29,55 @@ h3, h5, a{
     margin: 0 auto;
     display: block;
     transition: transform 0.3s ease-in-out;
+    /* Aplicando sombra personalizada según el fondo de cada tarjeta */
 }
 
 .logoFounders:hover {
     transform: scale(1.5);
 }
 
-.fondoOmega{
+.fondoOmega {
     background-color: #1f281d !important;
     color: white !important;
     align-items: center !important;
+    box-shadow: 0 4px 8px rgba(87, 120, 77, 0.4); /* Sombra verde musgo */
 }
 
-.fondoBeta{
+.fondoOmega .logoFounders {
+    filter: drop-shadow(0 4px 8px rgba(87, 120, 77, 0.4)); /* Sombra verde musgo siguiendo la forma de la imagen */
+}
+
+.fondoBeta {
     background-color: #261d28 !important;
     color: white !important;
     align-items: center !important;
+    box-shadow: 0 4px 8px rgba(144, 98, 144, 0.4); /* Sombra púrpura suave */
 }
 
-.fondoDelta{
+.fondoBeta .logoFounders {
+    filter: drop-shadow(0 4px 8px rgba(144, 98, 144, 0.4)); /* Sombra púrpura suave siguiendo la forma de la imagen */
+}
+
+.fondoDelta {
     background-color: #2B303D !important;
     color: white !important;
     align-items: center !important;
+    box-shadow: 0 4px 8px rgba(110, 110, 135, 0.4); /* Sombra gris-azulada */
 }
 
-.fondoAlfa{
+.fondoDelta .logoFounders {
+    filter: drop-shadow(0 4px 8px rgba(110, 110, 135, 0.4)); /* Sombra gris-azulada siguiendo la forma de la imagen */
+}
+
+.fondoAlfa {
     background-color: #281d1d !important;
     color: white !important;
     align-items: center !important;
+    box-shadow: 0 4px 8px rgba(130, 60, 60, 0.4); /* Sombra rojo oscuro */
+}
+
+.fondoAlfa .logoFounders {
+    filter: drop-shadow(0 4px 8px rgba(130, 60, 60, 0.4)); /* Sombra rojo oscuro siguiendo la forma de la imagen */
 }
 
 .crown-icon {
