@@ -1,42 +1,62 @@
-<section class="container">
-    <h3 class="text-center mb-4 colorFont">Creditos de Fundadores</h3>
+<section class="container mt-5">
+    <h3 class="text-center mb-4 colorFont">Créditos de Fundadores</h3>
 
     <div class="row g-4">
         <div class="col-12 col-md-6 col-lg-3">
             <div class="card h-100 custom-card-size fondoAlfa">
                 <h5 class="card-title text-center mt-2">Alfa</h5>
-                <img src="./assets/img/alfa.png" class="logoFounders" alt="">
+                <img src="./assets/img/alfa.png" class="logoFounders" alt="Alfa Logo">
                 <div class="card-body">
-                    <p class="card-text" *ngFor="let founder of foundersAlfa"> {{ founder.name }} - {{ founder.meses }} meses</p>
+                    <p class="card-text" *ngFor="let founder of foundersAlfa">
+                        <span *ngIf="founder.meses >= 12" class="crown-icon">
+                            <i class="fas fa-crown"></i>
+                        </span>
+                        {{ founder.name }} - {{ founder.meses }} meses
+                    </p>
                 </div>
             </div>
         </div>
         <div class="col-12 col-md-6 col-lg-3">
             <div class="card h-100 custom-card-size fondoBeta">
                 <h5 class="card-title text-center mt-2">Beta</h5>
-                <img src="./assets/img/beta.png" class="logoFounders" alt="">
+                <img src="./assets/img/beta.png" class="logoFounders" alt="Beta Logo">
                 <div class="card-body">
-                    <p class="card-text" *ngFor="let founder of foundersBeta"> {{ founder.name }} - {{ founder.meses }} meses</p>
+                    <p class="card-text" *ngFor="let founder of foundersBeta">
+                        <span *ngIf="founder.meses >= 12" class="crown-icon">
+                            <i class="fas fa-crown"></i>
+                        </span>
+                        {{ founder.name }} - {{ founder.meses }} meses
+                    </p>
                 </div>
             </div>
         </div>
         <div class="col-12 col-md-6 col-lg-3">
             <div class="card h-100 custom-card-size fondoDelta">
                 <h5 class="card-title text-center mt-2">Delta</h5>
-                <img src="./assets/img/delta.png" class="logoFounders" alt="">
+                <img src="./assets/img/delta.png" class="logoFounders" alt="Delta Logo">
                 <div class="card-body">
-                    <p class="card-text" *ngFor="let founder of foundersDelta"> {{ founder.name }} - {{ founder.meses }} meses</p>
+                    <p class="card-text" *ngFor="let founder of foundersDelta">
+                        <span *ngIf="founder.meses >= 12" class="crown-icon">
+                            <i class="fas fa-crown"></i>
+                        </span>
+                        {{ founder.name }} - {{ founder.meses }} meses
+                    </p>
                 </div>
             </div>
         </div>
         <div class="col-12 col-md-6 col-lg-3">
             <div class="card h-100 custom-card-size fondoOmega">
                 <h5 class="card-title text-center mt-2">Omega</h5>
-                <img src="./assets/img/omega.png" class="logoFounders" alt="">
+                <img src="./assets/img/omega.png" class="logoFounders" alt="Omega Logo">
                 <div class="card-body">
-                    <p class="card-text" *ngFor="let founder of foundersOmega"> {{ founder.name }} - {{ founder.meses }} meses</p>
+                    <p class="card-text" *ngFor="let founder of foundersOmega">
+                        <span *ngIf="founder.meses >= 12" class="crown-icon">
+                            <i class="fas fa-crown"></i>
+                        </span>
+                        {{ founder.name }} - {{ founder.meses }} meses
+                    </p>
                 </div>
             </div>
         </div>
-    </div>    
+    </div>
 </section>

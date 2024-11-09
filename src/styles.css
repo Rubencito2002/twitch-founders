@@ -14,6 +14,7 @@ body {
     height: 100px;
     margin: 0 auto;
     display: block;
+    animation: zoomIn 0.8s ease forwards;
 }
 
 .colorFont{
@@ -49,3 +50,9 @@ body {
     overflow-y: auto;
 }*/
 
+.crown-icon {
+    color: gold;
+    font-size: 1.2em;
+    margin-right: 5px;
+    vertical-align: middle;
+}
