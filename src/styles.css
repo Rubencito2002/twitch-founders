@@ -2,6 +2,11 @@ body {
     background-color: #242833 !important;
 }
 
+h3, h5, a{
+    text-decoration: underline;
+    color: white !important;
+}
+
 .logo {
     width: 50px;
     height: 50px;
@@ -18,28 +23,11 @@ body {
     height: 100px;
     margin: 0 auto;
     display: block;
-    /* animation: zoomIn 0.8s ease forwards; */
     transition: transform 0.3s ease-in-out;
 }
 
 .logoFounders:hover {
     transform: scale(1.5);
-}
-
-/* img {
-    height: 5rem;
-    width: auto;
-    border-radius: 34% 66% 64% 36% / 37% 39% 61% 63%;
-    border: 5px solid var(--accent-color);
-    transition: transform 0.3s ease-in-out;
-}
-
-img:hover {
-    transform: scale(1);
-} */
-
-.colorFont{
-    color: white !important;
 }
 
 .fondoOmega{
@@ -65,11 +53,6 @@ img:hover {
     color: white !important;
     align-items: center !important;
 }
-
-/* .custom-card-size { 
-    max-height: 500px;
-    overflow-y: auto;
-}*/
 
 .crown-icon {
     color: gold;
