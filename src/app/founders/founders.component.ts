@@ -5,6 +5,7 @@ interface founders {
   name: string;
   rango: string[]
   meses: number;
+  renovado?: boolean;
 }
 
 @Component({
@@ -20,7 +21,8 @@ export class FoundersComponent {
     {
       name: 'Pepillo70',
       rango: ['Alfa'],
-      meses: 19,
+      meses: 20,
+      renovado: true,
     },
   ];
   foundersBeta: founders[] = [
@@ -28,31 +30,37 @@ export class FoundersComponent {
       name: 'Morro02',
       rango: ['Beta'],
       meses: 8,
+      renovado: false,
     },
     {
       name: 'Puchichi-España',
       rango: ['Beta'],
       meses: 4,
+      renovado: true,
     },
     {
       name: 'Ales715',
       rango: ['Beta'],
       meses: 4,
+      renovado: true,
     },
     {
       name: 'Hugomiles',
       rango: ['Beta'],
       meses: 3,
+      renovado: true,
     },
     {
       name: 'Kqrlxz',
       rango: ['Beta'],
       meses: 2,
+      renovado: true,
     },
     {
       name: 'Roberto_133',
       rango: ['Beta'],
       meses: 2,
+      renovado: true,
     },
   ];
     foundersDelta: founders[] = [
@@ -60,61 +68,79 @@ export class FoundersComponent {
       name: 'PlayerZ',
       rango: ['Delta'],
       meses: 11,
+      renovado: true,
     },
     {
       name: 'Raulator2000',
       rango: ['Delta'],
       meses: 4,
+      renovado: true,
     },
     {
       name: 'Marcsl2014',
       rango: ['Delta'],
       meses: 3,
+      renovado: true,
     },
     {
       name: 'SoyDark32',
       rango: ['Delta'],
       meses: 4,
+      renovado: true,
     },
     {
       name: 'Quinn-Madox',
       rango: ['Delta'],
       meses: 3,
+      renovado: true,
     },
     {
       name: 'Henryy',
       rango: ['Delta'],
       meses: 2,
+      renovado: true,
     },
     {
       name: 'Artairoga',
       rango: ['Delta'],
-      meses: 2,
+      meses: 3,
+      renovado: true,
     },
     {
       name: 'Massimo clari',
       rango: ['Delta'],
       meses: 2,
+      renovado: true,
     },
     {
       name: 'Noeclas',
       rango: ['Delta'],
-      meses: 1,
+      meses: 2,
+      renovado: true,
+    },
+    {
+      name: 'Lpo123xd',
+      rango: ['Delta'],
+      meses: 2,
+      renovado: true,
     },
     {
       name: 'Emmacho',
       rango: ['Delta'],
       meses: 1,
-    },
-    {
-      name: 'Lpo123xd',
-      rango: ['Delta'],
-      meses: 1,
+      renovado: true,
     },
     {
       name: 'LaylaYunik',
       rango: ['Delta'],
       meses: 1,
+      renovado: true,
+    },
+    {
+      name: 'DiegoSparkle',
+      rango: ['Delta'],
+      meses: 1,
+      renovado: true,
     },
   ];
   foundersOmega: founders[] = [
@@ -122,31 +148,37 @@ export class FoundersComponent {
       name: 'Soy_Oihan18',
       rango: ['Omega'],
       meses: 20,
+      renovado: true,
     },
     {
       name: 'Dami',
       rango: ['Omega'],
-      meses: 6,
-    },
-    {
-      name: 'Raul23O8ir',
-      rango: ['Omega'],
-      meses: 2,
+      meses: 7,
+      renovado: true,
     },
     {
       name: 'Andr3u6',
       rango: ['Omega'],
       meses: 4,
+      renovado: true,
+    },
+    {
+      name: 'Miguel',
+      rango: ['Omega'],
+      meses: 4,
+      renovado: true,
     },
     {
       name: 'Mem',
       rango: ['Omega'],
       meses: 2,
+      renovado: true,
     },
     {
-      name: 'Miguel',
+      name: 'Raul23O8ir',
       rango: ['Omega'],
-      meses: 3,
+      meses: 2,
+      renovado: false,
     },
   ];
 }

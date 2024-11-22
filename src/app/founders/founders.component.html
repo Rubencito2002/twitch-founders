@@ -7,12 +7,17 @@
                 <img src="./assets/img/alfa.png" class="logoFounders" alt="Alfa Logo">
                 <h5 class="card-title text-center mt-2">Alfa</h5>
                 <div class="card-body">
-                    <p class="card-text" *ngFor="let founder of foundersAlfa">
-                        <span *ngIf="founder.meses >= 12" class="crown-icon">
-                            <i class="fas fa-crown"></i>
-                        </span>
-                        {{ founder.name }} - {{ founder.meses }} meses
-                    </p>
+                    <ul>
+                        <li *ngFor="let founder of foundersAlfa">
+                            <span *ngIf="founder.meses >= 12" class="crown-icon">
+                                <i class="fas fa-crown"></i>
+                            </span>
+                            <span [ngClass]="{'text-decoration-line-through': !founder.renovado, 'text-danger': !founder.renovado}">
+                                {{ founder.name }} - {{ founder.meses }} meses
+                            </span>
+                            
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -21,12 +26,16 @@
                 <img src="./assets/img/beta.png" class="logoFounders" alt="Beta Logo">
                 <h5 class="card-title text-center mt-2">Beta</h5>
                 <div class="card-body">
-                    <p class="card-text" *ngFor="let founder of foundersBeta">
-                        <span *ngIf="founder.meses >= 12" class="crown-icon">
-                            <i class="fas fa-crown"></i>
-                        </span>
-                        {{ founder.name }} - {{ founder.meses }} meses
-                    </p>
+                    <ul>
+                        <li *ngFor="let founder of foundersBeta">
+                            <span *ngIf="founder.meses >= 12" class="crown-icon">
+                                <i class="fas fa-crown"></i>
+                            </span>
+                            <span [ngClass]="{'text-decoration-line-through': !founder.renovado, 'text-danger': !founder.renovado}">
+                                {{ founder.name }} - {{ founder.meses }} meses
+                            </span>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -35,12 +44,16 @@
                 <img src="./assets/img/delta.png" class="logoFounders" alt="Delta Logo">
                 <h5 class="card-title text-center mt-2">Delta</h5>
                 <div class="card-body">
-                    <p class="card-text" *ngFor="let founder of foundersDelta">
-                        <span *ngIf="founder.meses >= 12" class="crown-icon">
-                            <i class="fas fa-crown"></i>
-                        </span>
-                        {{ founder.name }} - {{ founder.meses }} meses
-                    </p>
+                    <ul>
+                        <li *ngFor="let founder of foundersDelta">
+                            <span *ngIf="founder.meses >= 12" class="crown-icon">
+                                <i class="fas fa-crown"></i>
+                            </span>
+                            <span [ngClass]="{'text-decoration-line-through': !founder.renovado, 'text-danger': !founder.renovado}">
+                                {{ founder.name }} - {{ founder.meses }} meses
+                            </span>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -49,12 +62,16 @@
                 <img src="./assets/img/omega.png" class="logoFounders" alt="Omega Logo">
                 <h5 class="card-title text-center mt-2">Omega</h5>
                 <div class="card-body">
-                    <p class="card-text" *ngFor="let founder of foundersOmega">
-                        <span *ngIf="founder.meses >= 12" class="crown-icon">
-                            <i class="fas fa-crown"></i>
-                        </span>
-                        {{ founder.name }} - {{ founder.meses }} meses
-                    </p>
+                    <ul>
+                        <li *ngFor="let founder of foundersOmega">
+                            <span *ngIf="founder.meses >= 12" class="crown-icon">
+                                <i class="fas fa-crown"></i>
+                            </span>
+                            <span [ngClass]="{'text-decoration-line-through': !founder.renovado, 'text-danger': !founder.renovado}">
+                                {{ founder.name }} - {{ founder.meses }} meses
+                            </span>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
