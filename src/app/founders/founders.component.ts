@@ -107,7 +107,7 @@ export class FoundersComponent {
       renovado: true,
     },
     {
-      name: 'Massimo clari',
+      name: 'Massimo364',
       rango: ['Delta'],
       meses: 3,
       renovado: true,
