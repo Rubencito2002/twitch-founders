@@ -63,7 +63,7 @@ export class FoundersComponent {
       renovado: true,
     },
   ];
-    foundersDelta: founders[] = [
+  foundersDelta: founders[] = [
     {
       name: 'PlayerZ',
       rango: ['Delta'],
@@ -180,5 +180,19 @@ export class FoundersComponent {
       meses: 2,
       renovado: false,
     },
+  ];
+  foundersEpsilon: founders[] = [
+    
+  ];
+  foundersGamma: founders[] = [
+    {
+      name: 'Massimo364',
+      rango: ['Gamma'],
+      meses: 1,
+      renovado: true,
+    },
+  ];
+  foundersZeta: founders[] = [
+    
   ];
 }
