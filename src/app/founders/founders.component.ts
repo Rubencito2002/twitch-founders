@@ -184,15 +184,15 @@ export class FoundersComponent {
   foundersEpsilon: founders[] = [
     
   ];
-  foundersGamma: founders[] = [
+  foundersZenith : founders[] = [
     {
       name: 'Massimo364',
-      rango: ['Gamma'],
-      meses: 1,
+      rango: ['Zenith '],
+      meses: 4,
       renovado: true,
     },
   ];
-  foundersZeta: founders[] = [
+  foundersHorizon: founders[] = [
     
   ];
 }
