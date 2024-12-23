@@ -195,7 +195,7 @@ export class FoundersComponent {
       name: 'Puchichi-España',
       rango: ['Zenith'],
       meses: 5,
-      renovado: false,
+      renovado: true,
     },
   ];
   foundersHorizon: founders[] = [
