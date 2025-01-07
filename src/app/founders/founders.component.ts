@@ -33,12 +33,6 @@ export class FoundersComponent {
       renovado: false,
     },
     {
-      name: 'Puchichi-España',
-      rango: ['Beta'],
-      meses: 4,
-      renovado: false,
-    },
-    {
       name: 'Ales715',
       rango: ['Beta'],
       meses: 4,
@@ -56,37 +50,13 @@ export class FoundersComponent {
       meses: 2,
       renovado: false,
     },
-    {
-      name: 'Roberto_133',
-      rango: ['Beta'],
-      meses: 3,
-      renovado: true,
-    },
   ];
   foundersDelta: founders[] = [
-    {
-      name: 'PlayerZ',
-      rango: ['Delta'],
-      meses: 13,
-      renovado: true,
-    },
-    {
-      name: 'Raulator2000',
-      rango: ['Delta'],
-      meses: 4,
-      renovado: true,
-    },
     {
       name: 'Marcsl2014',
       rango: ['Delta'],
       meses: 3,
       renovado: false,
-    },
-    {
-      name: 'SoyDark32',
-      rango: ['Delta'],
-      meses: 5,
-      renovado: true,
     },
     {
       name: 'Quinn-Madox',
@@ -104,12 +74,6 @@ export class FoundersComponent {
       name: 'Artairoga',
       rango: ['Delta'],
       meses: 4,
-      renovado: true,
-    },
-    {
-      name: 'Massimo364',
-      rango: ['Delta'],
-      meses: 3,
       renovado: true,
     },
     {
@@ -145,12 +109,6 @@ export class FoundersComponent {
   ];
   foundersOmega: founders[] = [
     {
-      name: 'Soy_Oihan18',
-      rango: ['Omega'],
-      meses: 20,
-      renovado: true,
-    },
-    {
       name: 'Dami',
       rango: ['Omega'],
       meses: 8,
@@ -182,13 +140,24 @@ export class FoundersComponent {
     },
   ];
   foundersEpsilon: founders[] = [
-    
+    {
+      name: 'SoyDark32',
+      rango: ['Epsilon'],
+      meses: 6,
+      renovado: true,
+    },
   ];
   foundersZenith : founders[] = [
     {
-      name: 'Massimo364',
-      rango: ['Zenith '],
-      meses: 4,
+      name: 'PlayerZ',
+      rango: ['Zenith'],
+      meses: 14,
+      renovado: true,
+    },
+    {
+      name: 'Raulator2000',
+      rango: ['Zenith'],
+      meses: 5,
       renovado: true,
     },
     {
@@ -197,8 +166,25 @@ export class FoundersComponent {
       meses: 5,
       renovado: true,
     },
+    {
+      name: 'Massimo364',
+      rango: ['Zenith '],
+      meses: 4,
+      renovado: true,
+    },
+    {
+      name: 'Roberto_133',
+      rango: ['Zenith'],
+      meses: 4,
+      renovado: true,
+    },
   ];
   foundersHorizon: founders[] = [
-    
+    {
+      name: 'Soy_Oihan18',
+      rango: ['Horizon'],
+      meses: 22,
+      renovado: true,
+    },
   ];
 }
