@@ -18,12 +18,7 @@ interface founders {
 
 export class FoundersComponent {
   foundersAlfa: founders[] = [
-    {
-      name: 'Pepillo70',
-      rango: ['Alfa'],
-      meses: 21,
-      renovado: true,
-    },
+    
   ];
   foundersBeta: founders[] = [
     {
@@ -140,6 +135,12 @@ export class FoundersComponent {
     },
   ];
   foundersEpsilon: founders[] = [
+    {
+      name: 'Pepillo70',
+      rango: ['Epsilon'],
+      meses: 22,
+      renovado: true,
+    },
     {
       name: 'SoyDark32',
       rango: ['Epsilon'],
