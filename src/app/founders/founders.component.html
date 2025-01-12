@@ -1,7 +1,7 @@
 <section class="container mt-5">
     <h3 class="text-center mb-4 colorFont">Créditos de Fundadores - Kofi</h3>
     <div class="row g-4 justify-content-center">
-        <div class="col-12 col-md-6 col-lg-3">
+        <div class="col-12 col-md-6 col-lg-3" *ngIf="foundersEpsilon.length > 0">
             <div class="card h-100 custom-card-size fondoAlfa">
                 <img src="./assets/img/alfa.png" class="logoFounders" alt="Alfa Logo">
                 <h5 class="card-title text-center mt-2">Epsilon</h5>
@@ -19,13 +19,13 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3">
+        <div class="col-12 col-md-6 col-lg-3" *ngIf="foundersZenith.length > 0">
             <div class="card h-100 custom-card-size fondoBeta">
                 <img src="./assets/img/beta.png" class="logoFounders" alt="Beta Logo">
-                <h5 class="card-title text-center mt-2">Zenith </h5>
+                <h5 class="card-title text-center mt-2">Zenith</h5>
                 <div class="card-body">
                     <ul>
-                        <li *ngFor="let founder of foundersZenith ">
+                        <li *ngFor="let founder of foundersZenith">
                             <span *ngIf="founder.meses >= 12" class="crown-icon">
                                 <i class="fas fa-crown"></i>
                             </span>
@@ -37,9 +37,9 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3">
+        <div class="col-12 col-md-6 col-lg-3" *ngIf="foundersHorizon.length > 0">
             <div class="card h-100 custom-card-size fondoBeta">
-                <img src="./assets/img/delta.png" class="logoFounders" alt="Beta Logo">
+                <img src="./assets/img/delta.png" class="logoFounders" alt="Delta Logo">
                 <h5 class="card-title text-center mt-2">Horizon</h5>
                 <div class="card-body">
                     <ul>
@@ -59,7 +59,7 @@
 
     <h3 class="text-center my-4  colorFont">Créditos de Fundadores - Shopify</h3>
     <div class="row g-4">
-        <div class="col-12 col-md-6 col-lg-3">
+        <div class="col-12 col-md-6 col-lg-3" *ngIf="foundersAlfa.length > 0">
             <div class="card h-100 custom-card-size fondoAlfa">
                 <img src="./assets/img/alfa.png" class="logoFounders" alt="Alfa Logo">
                 <h5 class="card-title text-center mt-2">Alfa</h5>
@@ -72,13 +72,12 @@
                             <span [ngClass]="{'text-decoration-line-through': !founder.renovado, 'text-danger': !founder.renovado}">
                                 {{ founder.name }} - {{ founder.meses }} meses
                             </span>
-                            
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3">
+        <div class="col-12 col-md-6 col-lg-3" *ngIf="foundersBeta.length > 0">
             <div class="card h-100 custom-card-size fondoBeta">
                 <img src="./assets/img/beta.png" class="logoFounders" alt="Beta Logo">
                 <h5 class="card-title text-center mt-2">Beta</h5>
@@ -96,7 +95,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3">
+        <div class="col-12 col-md-6 col-lg-3" *ngIf="foundersDelta.length > 0">
             <div class="card h-100 custom-card-size fondoDelta">
                 <img src="./assets/img/delta.png" class="logoFounders" alt="Delta Logo">
                 <h5 class="card-title text-center mt-2">Delta</h5>
@@ -114,7 +113,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3">
+        <div class="col-12 col-md-6 col-lg-3" *ngIf="foundersOmega.length > 0">
             <div class="card h-100 custom-card-size fondoOmega">
                 <img src="./assets/img/omega.png" class="logoFounders" alt="Omega Logo">
                 <h5 class="card-title text-center mt-2">Omega</h5>
