@@ -158,7 +158,7 @@ export class FoundersComponent {
     {
       name: 'Raulator2000',
       rango: ['Zenith'],
-      meses: 5,
+      meses: 6,
       renovado: true,
     },
     {
@@ -170,7 +170,7 @@ export class FoundersComponent {
     {
       name: 'Massimo364',
       rango: ['Zenith '],
-      meses: 4,
+      meses: 5,
       renovado: true,
     },
     {
